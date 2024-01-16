@@ -94,3 +94,9 @@ C-B w
 ```shell
 tmux kill-session -t SESSIONNAME
 ```
+
+## Tips & Tricks
+
+### Copy and Paste
+
+Hold `Shift` / Select text (with mouse) / `Ctrl + Shift + C` / `Ctrl + Shift + V`
