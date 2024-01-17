@@ -22,6 +22,7 @@
 | Up with Selection                  | NA                                   |                                       | Up with Selection                                  | `Shift + UpArrow`                        |
 | Down with Selection                | NA                                   |                                       | Down with Selection                                | `Shift + DownArrow`                      |
 | Column Selection                   | Toggle Column Selection Mode         | Assigned to `Alt + Shift + Insert`    | Column Selection Mode                              | `Alt + Shift + Insert`                   |
+| Line Selection                     | Expand Line Selection                | `Ctrl + L`                            | Extend Line Selection                              | Reassigned to `Ctrl + L`                 |
 | Format Code                        | Format Document                      | `Alt + Shift + F`                     | Reformat Code                                      | `Alt + Shift + F`                        |
 | Close Tab                          | Close Editor                         | `Ctrl + W`                            | Close Tab                                          | `Ctrl + W`                               |
 | Reopen Closed Tab                  | Reopen Closed Editor                 | `Ctrl + Shift + T`                    | Reopen Closed Tab                                  | `Ctrl + Shift + T`                       |
