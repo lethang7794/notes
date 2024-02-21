@@ -42,8 +42,8 @@
 | Open Keyboard Shortcuts            | Preferences: Open Keyboard Shortcuts | `Ctrl + K, Ctrl + S`                  | Keymap / Configure Keymap...                       | Assigned to `Ctrl + K, Ctrl + S`         |
 | ➡️ Go To Next Problem              | Go To Next Problem                   | `F8`                                  | Next Highlighted Error                             | Assigned to `F8`                         |
 | 🔙 Go To Previous Problem          | Go To Previous Problem               | `Shift + F8`                          | Previous Highlighted Error                         | `Shift + F8`                             |
-|                                    |                                      |                                       |                                                    |                                          |
-|                                    |                                      |                                       |                                                    |                                          |
+| Back                               | Go Back                              | Assigned to `Alt + LeftArrow`         | **Back**                                           | `Alt + LeftArrow`                        |
+| Forward                            | Go Forward                           | Assigned to `Alt + RightArrow`        | **Forward**                                        | `Alt + RightArrow`                       |
 |                                    |                                      |                                       |                                                    |                                          |
 |                                    |                                      |                                       |                                                    |                                          |
 
