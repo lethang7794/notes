@@ -6,7 +6,7 @@
 
 - Config
 
-  Alarcritty looks for configuration files in:
+  Alacritty looks for configuration files in:
 
   ```bash
   $XDG_CONFIG_HOME/alacritty/alacritty.toml
