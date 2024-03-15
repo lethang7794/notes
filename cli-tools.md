@@ -33,6 +33,8 @@
 
 #### `broot`[^broot]: A better way to navigate directories 🌟🌟🌟
 
+![broot](/images/broot-preview.png)
+
 broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 
 - Config
@@ -55,6 +57,8 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 #### `xq`[^xq]: XML, _HTML_ processor
 
 #### `fx`[^fx]: Interactive _JSON_/YAML viewer & processor 🌟🌟🌟
+
+![fx](/images/fx-preview.gif)
 
 [^broot]: <https://github.com/Canop/broot>
 [^jq]: https://github.com/jqlang/jq
