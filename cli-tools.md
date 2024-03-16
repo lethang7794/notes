@@ -27,6 +27,12 @@
 
 ### fish
 
+## Shell Prompt
+
+### Starship: Cross-shell Prompt
+
+See [Starship](./starship.md)
+
 ## CLI tools
 
 ### File navigate
