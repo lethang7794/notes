@@ -25,7 +25,19 @@
 
 ### zsh
 
+#### [oh-my-zsh][oh-my-zsh]: Framework for Zsh, comes with [plugins][on-my-zsh-plugins], [themes][oh-my-zsh-themes], functions, helpers
+
+#### [Antidote][Antidote]: zsh plugin manager (successor of `Antibody` - successor of `Antigen`) - Cure to slow zsh loading time
+
 ### fish
+
+## Shell Plugins
+
+### [Argc-completions][argc-completions]: Completions for any shell. Supports 1000+ commands. Automatically generate completion definition from help text and man page.
+
+### [fzf][fzf]: A command-line fuzzy finder
+
+![fzf](images/fzf-preview.png)
 
 ## Shell Prompt
 
@@ -73,3 +85,10 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 [^yq]: https://github.com/mikefarah/yq
 [^xq]: https://github.com/sibprogrammer/xq
 [^fx]: https://fx.wtf/
+
+[oh-my-zsh]: https://ohmyz.sh/
+[on-my-zsh-plugins]: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
+[oh-my-zsh-themes]: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+[Antidote]: https://github.com/mattmc3/antidote
+[argc-completions]: https://github.com/sigoden/argc-completions
+[fzf]: https://github.com/junegunn/fzf
