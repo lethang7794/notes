@@ -29,11 +29,29 @@
 
 #### [Antidote][Antidote]: zsh plugin manager (successor of `Antibody` - successor of `Antigen`) - Cure to slow zsh loading time
 
+#### Completion, suggestions & syntax highlight for zsh
+
+- Completions (for a command)
+
+  - [argc-completions](#argc-completions)
+  - [zsh-users/zsh-completions][zsh-users/zsh-completions] ?
+
+- Suggestions (from history)
+
+  - [zsh-users/zsh-autosuggestions][zsh-users/zsh-autosuggestions]
+
+- Syntax highlight
+  - [zsh-users/zsh-syntax-highlighting][zsh-users/zsh-syntax-highlighting]
+  - [zdharma-continuum/fast-syntax-highlighting][zdharma-continuum/fast-syntax-highlighting]
+  - [z-shell/F-Sy-H][z-shell/F-Sy-H]
+
 ### fish
 
 ## Shell Plugins
 
-### [Argc-completions][argc-completions]: Completions for any shell. Supports 1000+ commands. Automatically generate completion definition from help text and man page.
+### argc-completions
+
+[Argc-completions][argc-completions]: Completions for any shell. Supports 1000+ commands. Automatically generate completion definition from help text and man page.
 
 ### [fzf][fzf]: A command-line fuzzy finder
 
@@ -92,3 +110,8 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 [Antidote]: https://github.com/mattmc3/antidote
 [argc-completions]: https://github.com/sigoden/argc-completions
 [fzf]: https://github.com/junegunn/fzf
+[zsh-users/zsh-completions]: https://github.com/zsh-users/zsh-completions/
+[zsh-users/zsh-autosuggestions]: https://github.com/zsh-users/zsh-autosuggestions
+[zsh-users/zsh-syntax-highlighting]: https://github.com/zsh-users/zsh-syntax-highlighting
+[zdharma-continuum/fast-syntax-highlighting]: https://github.com/zdharma-continuum/fast-syntax-highlighting
+[z-shell/F-Sy-H]: https://github.com/z-shell/F-Sy-H
