@@ -57,6 +57,13 @@
 
 ![fzf](images/fzf-preview.png)
 
+- Key bindings for command-line[^fzf-key-bindings]:
+  - `CTRL-T` - Get a list of files and directories
+  - `CTRL-R` - Get a list of command history
+  - `ALT-C` - Get a list of directories
+- Fuzzy Complete for files/directories[^fzf-fuzzy-completion]:
+  - `**<TAB>`: `COMMAND [DIRECTORY/][FUZZY_PATTERN]**<TAB>`
+
 ## Shell Prompt
 
 ### Starship: Cross-shell Prompt
@@ -115,3 +122,6 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 [zsh-users/zsh-syntax-highlighting]: https://github.com/zsh-users/zsh-syntax-highlighting
 [zdharma-continuum/fast-syntax-highlighting]: https://github.com/zdharma-continuum/fast-syntax-highlighting
 [z-shell/F-Sy-H]: https://github.com/z-shell/F-Sy-H
+
+[^fzf-fuzzy-completion]: https://github.com/junegunn/fzf?tab=readme-ov-file#fuzzy-completion-for-bash-and-zsh
+[^fzf-key-bindings]: https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line
