@@ -4,7 +4,7 @@
 
 distrobox[^distrobox]: Use any linux distribution inside your terminal
 
-![distrobox](distrobox.png)
+![distrobox](images/distrobox.png)
 
 ## toolbox
 
@@ -19,7 +19,7 @@ Toolbox solves these problem by providing a fully mutable container within which
 development container (dev container)
 : a dev container allows you to use a container as a full-featured development environment
 
-![dev container vs production container](dev-container-and-prod-container.png)
+![dev container vs production container](images/dev-container-and-prod-container.png)
 
 devcontainers spec
 : An open specification for enriching containers with development specific content and settings.
@@ -29,7 +29,7 @@ devcontainers spec
 #### Editors
 
 - VS Code & its Dev Containers extension[^vscode-dev-container]
-  ![VS Code - Dev Container](vscode-dev-container.png)
+  ![VS Code - Dev Container](images/vscode-dev-container.png)
 - JetBrain's IDE: IntelliJ, Goland[^goland-dev-container]...
 
 #### Tools
@@ -41,12 +41,12 @@ devcontainers spec
 
 - GitHub Codespaces
 
-  ![GitHub Codespaces](github-codespaces.png)
+  ![GitHub Codespaces](images/github-codespaces.png)
 
 - CodeSandbox[^codesandbox]
 - DevPod[^devpod]: Codespaces but open-source, client-only and un-opinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
 
-  ![DevPod Demo](devpod-demo.png)
+  ![DevPod Demo](images/devpod-demo.png)
 
 [^distrobox]: <https://github.com/89luca89/distrobox>
 [^toolbox]: <https://github.com/containers/toolbox>
