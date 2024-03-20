@@ -10,7 +10,7 @@ k9s[^k9s]: Kubernetes CLI To Manage Your Clusters In Style!
 
 When first opened, `k9s` show the list of pods.
 
-From there you can:
+From the `Pods` view, you can:
 
 - Change the selected pod (`Up`, `Down`),
 
@@ -22,21 +22,30 @@ From there you can:
 
 - Change the namespace (by pressing the key bindings in pink color)
 
-  - to `all`
-  - to `default` (by default, `k9s` use `default` namespace)
+  - to `all` by pressing `0`
+  - to `default` by pressing `1` (by default, `k9s` use `default` namespace)
 
 - Change to another list (resource)
+
   - List all the resources, by pressing `Ctrl +A`
   - Change to the view for that resource, by pressing `Enter`
 
-| Action                            | Key Binding   | Command | Note                                                          |
-| --------------------------------- | ------------- | ------- | ------------------------------------------------------------- |
-| Change the selected resource      | `Up` - `Down` |         |                                                               |
-| View (the selected resource)      | `Enter`       |         | Available for any selected resource                           |
-| Back                              | `Esc`         |         |                                                               |
-| Quit K9s                          | `Ctrl + C`    |         |                                                               |
-| Help                              | `?`           |         | Available at any view, change depend on which view is showing |
-| Show all available resource alias | `Ctrl + A`    |         | 1. `Up`/`Down`; 2. `Enter`                                    |
+  e.g. Change back to the default view - `Pods`
+
+  - `Ctrl + A`
+    - `Down`s to select `pods` (the 2nd one)
+    - `Enter`
+  - Press `:` to enter `command mode`
+    - Type in the command for pod: `pod` (or any of `po,pod,pods,v1/pods` - showed in `Ctrl + A`)
+
+| Action                            | Key Binding   | Command | Note                                                                                             |
+| --------------------------------- | ------------- | ------- | ------------------------------------------------------------------------------------------------ |
+| Change the selected resource      | `Up` - `Down` |         |                                                                                                  |
+| View (the selected resource)      | `Enter`       |         | Available for any selected resource                                                              |
+| Back                              | `Esc`         |         |                                                                                                  |
+| Quit K9s                          | `Ctrl + C`    |         |                                                                                                  |
+| Help                              | `?`           |         | Available at any view, change depend on which view is showing                                    |
+| Show all available resource alias | `Ctrl + A`    |         | 1. `Up`/`Down`; 2. `Enter`<br>(to close the `Aliases` view: use `Ese` or press `Ctrl + A` again) |
 
 ## Headlamp
 
