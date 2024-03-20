@@ -42,11 +42,11 @@ From there you can:
 
 Headlamp[^headlamp] (a CNCF Sandbox project[^headlamp-cncf]): A Kubernetes web UI that is fully-featured, user-friendly and extensible
 
-![Headlamp demo](headlamp-demo.gif)
+![Headlamp demo](images/headlamp-demo.gif)
 
-[^k9s]: https://github.com/derailed/k9s
-[^headlamp]: https://github.com/headlamp-k8s/headlamp
-[^headlamp-cncf]: https://www.cncf.io/projects/headlamp/
+[^k9s]: <https://github.com/derailed/k9s>
+[^headlamp]: <https://github.com/headlamp-k8s/headlamp>
+[^headlamp-cncf]: <https://www.cncf.io/projects/headlamp/>
 
 ## Tips & Tricks
 
@@ -67,13 +67,13 @@ Headlamp[^headlamp] (a CNCF Sandbox project[^headlamp-cncf]): A Kubernetes web U
 ### Show cluster information in shell prompt
 
 - oh-my-zsh plugin [kubectx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectx)
-  ![alt text](omz-kubectx-preview-dev.png)
-  ![alt text](omz-kubectx-preview-prod.png)
+  ![alt text](images/omz-kubectx-preview-dev.png)
+  ![alt text](images/omz-kubectx-preview-prod.png)
 
 - Use [starship](https://starship.rs/) prompt, with its [command for Kubernetes](https://starship.rs/config/#kubernetes)
-  ![alt text](starship-k8s.png)
+  ![alt text](images/starship-k8s.png)
 
 - Use [fish shell](https://fishshell.com/), which show it by default
-  ![alt text](fish-shell-k8s.png)
+  ![alt text](images/fish-shell-k8s.png)
 
 ### Add shell completion for `kubectl`
