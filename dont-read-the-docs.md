@@ -1,6 +1,6 @@
-# Don't read the docs
+# Don't read the docs (of an CLI tool) without trying
 
-## If it's a CLI tool, try
+## Tools
 
 ### tldr
 
@@ -18,7 +18,7 @@
   - [tldr-c-client](https://github.com/tldr-pages/tldr-c-client): The original client, written in C
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client): Python command-line client for tldr pages (This one is distributed for Linux distros)
   - [tlrc](https://github.com/tldr-pages/tlrc): A new official tldr client written in Rust
-- As a PDF ebook in many languages[^tldr-latest-release]...
+- As a PDF ebook in many languages[^tldr-latest-release]
 
 `tldr` (`tl;dr`)
 : short for `too long; didn't read` (also occasionally `don't read`)
@@ -26,34 +26,36 @@
 
 ### cheat
 
-cheat: cheatsheats for `*nix` commands that are used frequently, but not frequently enough to be remembered
+cheat[^cheat]: cheatsheats for `*nix` commands that are used frequently, but not frequently enough to be remembered
 
-![alt text](images/cheat-demo.png)
+![cheat demo](images/cheat-demo.png)
 
 ### xny
 
 xny[^xny]: A way to use [Learn X in Y Minutes][x-in-y] on the command line.
 
-![xnf demo](images/xny-demo.gif)
+## Terminal/shell completion feature
 
-#### Usage
+### Warp's completion
 
-```bash
-# default viewer is less
-xny python
+![warp completion](images/warp-completion.png)
 
-# use bat as viewer
-xny python --viewer bat
+### zsh completion
 
-# list all languages
-xny -s
-```
+![zsh completion](zsh-completion.png)
 
-[^tldr-pages]: https://github.com/tldr-pages/tldr
-[^xny]: https://github.com/YesSeri/xny-cli
+![zsh completion with fuzzy search](zsh-completion-fuzzy-search.png)
+zsh completion with fuzzy search
+
+### fish completion
+
+![fish completion](fish-completion.png)
 
 [x-in-y]: https://learnxinyminutes.com/
 
-[^tldr-clients]: https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients
-[^tdlr-wikipedia]: https://en.wikipedia.org/wiki/TL;DR
-[^tldr-latest-release]: https://github.com/tldr-pages/tldr/releases/latest
+[^tldr-pages]: <https://github.com/tldr-pages/tldr>
+[^xny]: <https://github.com/YesSeri/xny-cli>
+[^tldr-clients]: <https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients>
+[^tdlr-wikipedia]: <https://en.wikipedia.org/wiki/TL;DR>
+[^tldr-latest-release]: <https://github.com/tldr-pages/tldr/releases/latest>
+[^cheat]: <https://github.com/cheat/cheat>
