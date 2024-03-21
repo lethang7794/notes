@@ -6,7 +6,7 @@
 
 `tldr-pages`[^tldr-pages]: Simplified and community-driven `man` pages
 
-![alt text](tldr-demo.png)
+![alt text](images/tldr-demo.png)
 
 `tldr-pages` for a CLI tool can be available for many platforms, e.g. `common`, `linux`, `osx`, `windows`, ...
 
@@ -28,13 +28,13 @@
 
 cheat: cheatsheats for `*nix` commands that are used frequently, but not frequently enough to be remembered
 
-![alt text](cheat-demo.png)
+![alt text](images/cheat-demo.png)
 
 ### xny
 
 xny[^xny]: A way to use [Learn X in Y Minutes][x-in-y] on the command line.
 
-![xnf demo](xny-demo.gif)
+![xnf demo](images/xny-demo.gif)
 
 #### Usage
 
