@@ -42,14 +42,14 @@ xny[^xny]: A way to use [Learn X in Y Minutes][x-in-y] on the command line.
 
 ### zsh completion
 
-![zsh completion](zsh-completion.png)
+![zsh completion](images/zsh-completion.png)
 
-![zsh completion with fuzzy search](zsh-completion-fuzzy-search.png)
+![zsh completion with fuzzy search](images/zsh-completion-fuzzy-search.png)
 zsh completion with fuzzy search
 
 ### fish completion
 
-![fish completion](fish-completion.png)
+![fish completion](images/fish-completion.png)
 
 [x-in-y]: https://learnxinyminutes.com/
 
