@@ -6,12 +6,13 @@ Evince[^evince] is the default document viewer of Fedora (and any Linux distro t
 
 | Action                      | Keyboard Shortcuts | Note | 
 |-----------------------------|--------------------|------| 
-| Zoom 1:1                    | `Ctrl + 0`         |      |
+| Toggle **Sidebar**          | `F9`               |      |
+| Toggle **Primary Menu**     | `F10`              |      |
+| Toggle fullscreen           | `F11`              |      |
+| Automatic Zoo               | `A`                |      |
 | Fit Page                    | `F`                |      |
 | Fit Width                   | `W`                |      |
-| Automatic Zoo               | `A`                |      |
-| Toggle FullScreen           | `F11`              |      |
-| Toggle Sidebar              | `F9`               |      |
+| Zoom 1:1                    | `Ctrl + 0`         |      |
 | Toggle Continuous Scrolling | `C`                |      |
 | Toggle Night Mode           | `Ctrl + L`         |      |
 | Keyboard Shortcuts          | `Ctrl + Shift + ?` |      |
