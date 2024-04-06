@@ -51,7 +51,14 @@ zsh completion with fuzzy search
 
 ![fish completion](images/fish-completion.png)
 
+### The new terminal of JetBrain's IDEs (e.g. GoLand)
+
+![New Terminal of](images/jetbrain-ide-new-terminal.gif)
+
+For more information, see its [Introduce Blog][jetbrain-new-terminal]
+
 [x-in-y]: https://learnxinyminutes.com/
+[jetbrain-new-terminal]: https://blog.jetbrains.com/idea/2024/02/the-new-terminal-beta-is-now-in-jetbrains-ides
 
 [^tldr-pages]: <https://github.com/tldr-pages/tldr>
 [^xny]: <https://github.com/YesSeri/xny-cli>
