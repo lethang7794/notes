@@ -1,4 +1,6 @@
-# [Starship][starship-homepage]: The minimal, blazing-fast, and infinitely customizable prompt for any shell
+# Starship: Cross-shell Prompts
+
+[Starship][starship-homepage]: The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ## Config
 
