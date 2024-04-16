@@ -1,2 +1,1 @@
-# notes
-My personal notes
+# Personal notes
