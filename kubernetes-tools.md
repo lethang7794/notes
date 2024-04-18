@@ -193,7 +193,14 @@ You can use `kubecolor` as a complete alternative of `kubect`
 
 ![kubens demo](images/kubens-demo.gif)
 
+### Switch between contexts/namspace with `kubeswitch`
+
+[kubeswitch]: kubectx for operators, treat clusters as cattle, not pets.
+
+![kubeswitch demo](images/kubeswitch-demo.gif)
+
 [kubectl-aliases]: https://github.com/ahmetb/kubectl-aliases
 [kubecolor]: https://github.com/kubecolor/kubecolor
 [kubens]: https://github.com/ahmetb/kubectx
 [kubectx]: https://github.com/ahmetb/kubectx
+[kubeswitch]: https://github.com/danielfoehrKn/kubeswitch
