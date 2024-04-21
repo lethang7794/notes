@@ -1,21 +1,5 @@
 #!/bin/bash
 
-# Function to change directory to the specified path
-change_directory() {
-  local path="$1"
-
-  # Check if the path exists
-  if [ -d "$path" ]; then
-    cd "$path" || {
-      echo "Failed to change directory to $path"
-      return 1
-    }
-  else
-    echo "Error: Directory '$path' not found."
-    return 1
-  fi
-}
-
 # Function to generate table of contents for all Markdown files
 generate_toc() {
   local toc=""
@@ -34,9 +18,6 @@ generate_toc() {
 
   echo -e "$toc"
 }
-
-# cd to root
-change_directory ..
 
 # Generate table of contents
 toc=$(generate_toc)
