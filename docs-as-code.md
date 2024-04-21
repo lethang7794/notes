@@ -10,9 +10,11 @@
 
 - [markdownlint]: A Node.js style checker and lint tool for Markdown
 - [vale]: Brings code-like linting to prose.
+- [Markdown Footnote]: `[^1]` footnote syntax support to VS Code's Markdown editor and preview
 
 [markdownlint]: https://github.com/DavidAnson/markdownlint
 [vale]: https://github.com/errata-ai/vale
+[Markdown Footnote]: https://marketplace.visualstudio.com/items?itemName=houkanshan.vscode-markdown-footnote
 
 ### VS Code snippets
 
