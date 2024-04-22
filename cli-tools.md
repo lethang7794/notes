@@ -55,6 +55,8 @@
   gtk-update-icon-cache -f -t ~/.local/kitty.app/share/icons/hicolor
   ```
 
+For more information, see [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#install-kitty)
+
 ## Shell
 
 ### bash
@@ -140,12 +142,12 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 ![fx](/images/fx-preview.gif)
 
 [^broot]: <https://github.com/Canop/broot>
-[^jq]: https://github.com/jqlang/jq
-[^jaq]: https://github.com/01mf02/jaq
-[^gojq]: https://github.com/itchyny/gojq/
-[^yq]: https://github.com/mikefarah/yq
-[^xq]: https://github.com/sibprogrammer/xq
-[^fx]: https://fx.wtf/
+[^jq]: <https://github.com/jqlang/jq>
+[^jaq]: <https://github.com/01mf02/jaq>
+[^gojq]: <https://github.com/itchyny/gojq/>
+[^yq]: <https://github.com/mikefarah/yq>
+[^xq]: <https://github.com/sibprogrammer/xq>
+[^fx]: <https://fx.wtf/>
 
 [oh-my-zsh]: https://ohmyz.sh/
 [on-my-zsh-plugins]: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
@@ -159,5 +161,5 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 [zdharma-continuum/fast-syntax-highlighting]: https://github.com/zdharma-continuum/fast-syntax-highlighting
 [z-shell/F-Sy-H]: https://github.com/z-shell/F-Sy-H
 
-[^fzf-fuzzy-completion]: https://github.com/junegunn/fzf?tab=readme-ov-file#fuzzy-completion-for-bash-and-zsh
-[^fzf-key-bindings]: https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line
+[^fzf-fuzzy-completion]: <https://github.com/junegunn/fzf?tab=readme-ov-file#fuzzy-completion-for-bash-and-zsh>
+[^fzf-key-bindings]: <https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line>
