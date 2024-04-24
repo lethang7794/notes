@@ -19,6 +19,7 @@ Table of Contents:
 - [Keyboard Shortcuts](keyboard-shortcuts.md)
 - [Kubernetes - Tools, Tips & Tricks](kubernetes-tools.md)
 - [Linux commands and their modern versions](linux-commands-and-their-modern-versions.md)
+- [Awesome playgrounds 🛝](playgrounds.md)
 - [Starship: Cross-shell Prompts](starship.md)
 - [Tmux](tmux.md)
 - [VS Code - Tip & Tricks](vscode.md)
