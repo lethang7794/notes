@@ -32,6 +32,45 @@
 | [nginx playground] | Test nginx configurations instantly!             |       |
 | [sql playground]   | Run SQL queries on a simple test dataset!        |       |
 
+## Playgrounds for JavaScript Toolchain[^2]
+
+| Name                            | What to play?                              | Notes                                                                                                                          |
+| ------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Prettier Playground]           | JavaScript formatter                       | Opinionated Code Formatter                                                                                                     |
+| [ESLint Playground]             | JavaScript linter                          | Find and fix problems in your JavaScript code                                                                                  |
+| [Babel Playground]              | JavaScript compiler                        | Use next generation JavaScript, today.                                                                                         |
+| [Biome Playground]              |                                            | Format, lint, and more                                                                                                         |
+| [Oxc Playground]                |                                            | The JavaScript Oxidation Compiler (Oxc) is a collection of high-performance tools for the JavaScript language written in Rust. |
+| [Parcel Playground]             | Web bundler                                | The zero configuration build tool for the web                                                                                  |
+| [HTML to JSX], [SVG to JSX]     | JSX                                        |                                                                                                                                |
+| [SVGOMG]                        | SVGO                                       |                                                                                                                                |
+| [postcss-preset-env Playground] | PostCSS plugins                            |                                                                                                                                |
+| [Lightning CSS Playground]      | CSS parser, transformer, bundler, minifier |                                                                                                                                |
+
+## Playground for Frontend Frameworks
+
+| Name                 | What to play? | Notes    |
+| -------------------- | ------------- | -------- |
+| [SvelteJS REPL]      | SvelteJS      | Official |
+| [SolidJS Playground] | SolidJS       | Official |
+| [VueJS Playground]   | VueJS         | Official |
+| [React Playground]   | React         |          |
+
+[Prettier Playground]: https://prettier.io/playground/
+[ESLint Playground]: https://eslint.org/play/
+[Babel Playground]: https://babeljs.io/repl
+[Biome Playground]: https://biomejs.dev/playground/
+[Oxc Playground]: https://oxc-project.github.io/oxc/playground
+[Parcel Playground]: https://repl.parceljs.org
+[SVGOMG]: https://jakearchibald.github.io/svgomg/
+[HTML to JSX]: https://transform.tools/html-to-jsx
+[SVG to JSX]: https://transform.tools/
+[postcss-preset-env Playground]: https://preset-env.cssdb.org/playground/
+[Lightning CSS Playground]: https://lightningcss.dev/playground
+[SvelteJS REPL]: https://svelte.dev/repl/
+[SolidJS Playground]: https://playground.solidjs.com/
+[VueJS Playground]: https://sfc.vuejs.org/
+[React Playground]: https://reactplayground.vercel.app
 [Python Tutor]: https://pythontutor.com/
 [Loupe]: http://latentflip.com/loupe
 [float.exposed]: https://float.exposed
@@ -54,3 +93,4 @@
 [codapi]: https://codapi.org/showcase/
 
 [^1]: http://training.play-with-docker.com/
+[^2]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
