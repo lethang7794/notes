@@ -55,7 +55,23 @@
   gtk-update-icon-cache -f -t ~/.local/kitty.app/share/icons/hicolor
   ```
 
-For more information, see [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#install-kitty)
+  For more information, see [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#install-kitty)
+
+- Shortcuts
+
+  | Action              | Keyboard Shortcut      |
+  | ------------------- | ---------------------- |
+  | Create a new tab    | `Ctrl + Shift + T`     |
+  | Create a new window | `Ctrl + Shift + Enter` |
+  | Change layout       | `Ctrl + Shift + L`     |
+  | Close window        | `Ctrl + Shift + W`     |
+  | Next window         | `ctrl + shift + ]`     |
+  | Previous window     | `ctrl + shift + [`     |
+
+  For more information, see:
+
+  - [Overview | Kitty](https://sw.kovidgoyal.net/kitty/overview/)
+  - [Keyboard Shortcuts | kitty.config](https://sw.kovidgoyal.net/kitty/conf/#keyboard-shortcuts)
 
 ## Shell
 
