@@ -1,16 +1,21 @@
 # Awesome playgrounds 🛝
 
-| Name                         | What to play?                                                                                         | Notes                                                                      |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [Python Tutor]               | Python, Java, C, C++, JavaScript                                                                      | Visual Debugger, AI Tutor                                                  |
-| [Loupe]                      | JavaScript's call stack, event loop, callback queue                                                   | Visualizing the javascript runtime at runtime                              |
-| [JavaScript Visualizer 9000] | JavaScript's call stack, event loop, task queue, microtask queue                                      | Inspired by Loupe                                                          |
-| [float.exposed]              | Floating numbers                                                                                      | See [Exposing Floating Point]                                              |
-| [Play with Docker]           | Docker, Docker Swarm                                                                                  | There are labs, quizzes from beginner to advanced level [^1]               |
-| [Killercoda]                 | Kubernetes, ...                                                                                       | May support a lot of tools with [your help](https://github.com/killercoda) |
-| [TypeScript Playground]      | TypeScript                                                                                            |                                                                            |
-| [tailwindPLAY]               | Tailwind CSS                                                                                          |                                                                            |
-| [codapi]                     | Languages (Python, Go, C), databases, network (OpenAPI, curl, caddy), tools (git, grep, ripgrep), ... | Using interactive code snippets to document and explain things             |
+| Name                                               | What to play?                                                                                                    | Notes                                                          |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Python Tutor]                                     | Python, Java, C, C++, JavaScript                                                                                 | Visual Debugger, AI Tutor                                      |
+| [Loupe]                                            | JavaScript's call stack, event loop, callback queue                                                              | Visualizing the javascript runtime at runtime                  |
+| [JavaScript Visualizer 9000]                       | JavaScript's call stack, event loop, task queue, microtask queue                                                 | Inspired by Loupe                                              |
+| [float.exposed]                                    | Floating numbers                                                                                                 | See [Exposing Floating Point]                                  |
+| [Play with Docker]                                 | Docker, Docker Swarm                                                                                             | There are labs, quizzes from beginner to advanced level [^1]   |
+| [Killercoda]                                       | Kubernetes, ...                                                                                                  | May support a lot of tools with [your help][killercoda]        |
+| [TypeScript Playground]                            | TypeScript                                                                                                       |                                                                |
+| [tailwindPLAY]                                     | Tailwind CSS                                                                                                     |                                                                |
+| [codapi]                                           | Languages (Python, Go, C), databases, network (OpenAPI, `curl`, `caddy`), tools (`git`, `grep`, `ripgrep`)...    | Using interactive code snippets to document and explain things |
+| [jqkungfu][jqkungfu]                               | `jq`                                                                                                             | Built with WebAssembly                                         |
+| [sandbox.bio][sandbox.bio]                         | Terminal, [`jq`][sandbox.bio-jq], [`awk`][sandbox.bio-awk], [`grep`][sandbox.bio-grep], [`sed`][sandbox.bio-sed] | Also has [tutorials][sandbox.bio-tutorials] for jq, awk...     |
+| Shipmight's [Helm Playground][shipmight-helm]      | Helm                                                                                                             | Support only 1 template                                        |
+| Paul Vollmer's [Helm Playground][paulvollmer-helm] | Helm                                                                                                             | Support multiple templates                                     |
+|                                                    |                                                                                                                  |                                                                |
 
 ## Playgrounds for Golang
 
@@ -22,7 +27,7 @@
 | [Play with Go]                 |               | A series of hands-on, interactive, browser-based guides that introduce the tools required to work with the Go programming language. |
 | [Ardan Lab's Ultimate Go Tour] |               | For anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals.      |
 
-## [Wizard Zines/Julia Evans's playgrounds](https://wizardzines.com/#experiments)
+## [Wizard Zines/Julia Evans's playgrounds][wizardzines-experiments]
 
 | Name               | What to play?                                    | Notes |
 | ------------------ | ------------------------------------------------ | ----- |
@@ -91,6 +96,17 @@
 [Go by Example]: https://gobyexample.com/
 [Play with Go]: https://play-with-go.dev/
 [codapi]: https://codapi.org/showcase/
+[killercoda]: https://github.com/killercoda
+[jqkungfu]: https://jqkungfu.com/
+[sandbox.bio]: https://sandbox.bio/
+[sandbox.bio-jq]: https://sandbox.bio/playgrounds/jq
+[sandbox.bio-awk]: https://sandbox.bio/playgrounds/awk
+[sandbox.bio-grep]: https://sandbox.bio/playgrounds/grep
+[sandbox.bio-sed]: https://sandbox.bio/playgrounds/sed
+[sandbox.bio-tutorials]: https://sandbox.bio/tutorials
+[shipmight-helm]: https://helm-playground.com/
+[paulvollmer-helm]: https://paulvollmer.net/helm-playground/
+[wizardzines-experiments]: https://wizardzines.com/#experiments
 
 [^1]: http://training.play-with-docker.com/
 [^2]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
