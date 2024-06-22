@@ -16,8 +16,8 @@ echo $PATH | sed 's//\n/g'
 
 ```
 # Output
-/home/ethan/.local/bin # The shell checks this directory first
-/home/ethan/bin
+/home/admin/.local/bin # The shell checks this directory first
+/home/admin/bin
 /usr/local/bin
 /usr/local/sbin
 /usr/bin
@@ -100,6 +100,23 @@ The command history is stored at `$HISTFILE`, which by default:
 
     ```bash
     go --help
+    ```
+
+  - Some commands don't support `--help` or `-h`, and don't have a `help` sub-command either, e.g. `ssh`, `ssh-keygen`
+
+    ```bash
+    $ ssh -h
+    unknown option -- h
+    ```
+
+    ```bash
+    $ ssh --help
+    unknown option -- -
+    ```
+
+    ```bash
+    $ ssh help
+    ssh: Could not resolve hostname help: Name or service not known
     ```
 
 - Access the command's manual pages
