@@ -12,10 +12,10 @@
 | [tailwindPLAY]                                     | Tailwind CSS                                                                                                     |                                                                |
 | [codapi]                                           | Languages (Python, Go, C), databases, network (OpenAPI, `curl`, `caddy`), tools (`git`, `grep`, `ripgrep`)...    | Using interactive code snippets to document and explain things |
 | [jqkungfu][jqkungfu]                               | `jq`                                                                                                             | Built with WebAssembly                                         |
-| [sandbox.bio][sandbox.bio]                         | Terminal, [`jq`][sandbox.bio-jq], [`awk`][sandbox.bio-awk], [`grep`][sandbox.bio-grep], [`sed`][sandbox.bio-sed] | Also has [tutorials][sandbox.bio-tutorials] for jq, awk...     |
+| [sandbox.bio]                                      | Terminal, [`jq`][sandbox.bio-jq], [`awk`][sandbox.bio-awk], [`grep`][sandbox.bio-grep], [`sed`][sandbox.bio-sed] | Also has [tutorials][sandbox.bio-tutorials] for jq, awk...     |
 | Shipmight's [Helm Playground][shipmight-helm]      | Helm                                                                                                             | Support only 1 template                                        |
 | Paul Vollmer's [Helm Playground][paulvollmer-helm] | Helm                                                                                                             | Support multiple templates                                     |
-|                                                    |                                                                                                                  |                                                                |
+| [TIO - Try it online] [^3]                         | 260 practical programming language and 420 recreational programming language (e.g. [Braille])                    |                                                                |
 
 ## Playgrounds for Golang
 
@@ -60,6 +60,15 @@
 | [SolidJS Playground] | SolidJS       | Official |
 | [VueJS Playground]   | VueJS         | Official |
 | [React Playground]   | React         |          |
+
+## DX Playgounds
+
+| Name                       | What to play?                        | Notes |
+| -------------------------- | ------------------------------------ | ----- |
+| [CodingFont Playground]    | Choose your favorite font for coding |       |
+| [VS Code Themes]           | Choose your favorite VS Code theme   |       |
+| [Theme Studio for VS Code] | Create Your Own VS Code Themes       |       |
+|                            |                                      |       |
 
 [Prettier Playground]: https://prettier.io/playground/
 [ESLint Playground]: https://eslint.org/play/
@@ -107,6 +116,12 @@
 [shipmight-helm]: https://helm-playground.com/
 [paulvollmer-helm]: https://paulvollmer.net/helm-playground/
 [wizardzines-experiments]: https://wizardzines.com/#experiments
+[CodingFont Playground]: https://www.codingfont.com/
+[VS Code Themes]: https://vscodethemes.com
+[Theme Studio for VS Code]: https://themes.vscode.one/
+[TIO - Try it online]: https://tio.run/
+[Braille]: https://esolangs.org/wiki/Braille
 
 [^1]: http://training.play-with-docker.com/
 [^2]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
+[^3]: https://github.com/TryItOnline/tryitonline
