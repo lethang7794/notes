@@ -2,6 +2,7 @@
 
 Table of Contents:
 
+- [Awesome playgrounds 🛝](awesome-playgrounds.md)
 - [Amazon `AI Ready` commitment](aws-ai-courses.md)
 - [Browsers - Tips](browsers-tips.md)
 - [Managing dotfiles with chezmoi - TODO](chezmoi.md)
@@ -23,7 +24,6 @@ Table of Contents:
 - [Keyboard Shortcuts](keyboard-shortcuts.md)
 - [Kubernetes - Tools, Tips & Tricks](kubernetes-tools.md)
 - [Linux commands and their modern versions](linux-commands-and-their-modern-versions.md)
-- [Awesome playgrounds 🛝](playgrounds.md)
 - [How to quickly explore a Github repository - WIP](quickly-open-a-github-repo.md)
 - [Starship: Cross-shell Prompts](starship.md)
 - [Tmux](tmux.md)
