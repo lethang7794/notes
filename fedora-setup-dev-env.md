@@ -1,4 +1,4 @@
-# Fedora - Setup Development Environment (WIP)
+# Fedora - Setup Development Environment - WIP
 
 ```bash
 #!/bin/bash
