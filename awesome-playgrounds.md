@@ -16,6 +16,7 @@
 | Shipmight's [Helm Playground][shipmight-helm]      | Helm                                                                                                             | Support only 1 template                                        |
 | Paul Vollmer's [Helm Playground][paulvollmer-helm] | Helm                                                                                                             | Support multiple templates                                     |
 | [TIO - Try it online] [^3]                         | 260 practical programming language and 420 recreational programming language (e.g. [Braille])                    |                                                                |
+| [iximiuz Lab]                                      | DevOps Playgrounds: Linux, Docker, Kubernetes...                                                                 |                                                                |
 
 ## Playgrounds for Golang
 
@@ -121,6 +122,7 @@
 [Theme Studio for VS Code]: https://themes.vscode.one/
 [TIO - Try it online]: https://tio.run/
 [Braille]: https://esolangs.org/wiki/Braille
+[iximiuz Lab]: https://labs.iximiuz.com
 
 [^1]: http://training.play-with-docker.com/
 [^2]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
