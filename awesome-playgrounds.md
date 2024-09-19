@@ -4,10 +4,10 @@
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | [Python Tutor]                                     | Python, Java, C, C++, JavaScript                                                                                 | Visual Debugger, AI Tutor                                      |
 | [Loupe]                                            | JavaScript's call stack, event loop, callback queue                                                              | Visualizing the javascript runtime at runtime                  |
-| [JavaScript Visualizer 9000]                       | JavaScript's call stack, event loop, task queue, microtask queue                                                 | Inspired by Loupe                                              |
+| [JavaScript Visualizer 9000]                       | JavaScript's call stack, event loop, task queue, micro-task queue                                                | Inspired by Loupe                                              |
 | [float.exposed]                                    | Floating numbers                                                                                                 | See [Exposing Floating Point]                                  |
 | [Play with Docker]                                 | Docker, Docker Swarm                                                                                             | There are labs, quizzes from beginner to advanced level [^1]   |
-| [Killercoda]                                       | Kubernetes, ...                                                                                                  | May support a lot of tools with [your help][killercoda]        |
+| [Killercoda]                                       | Kubernetes, ...                                                                                                  | May support a lot of tools with [your help][killercoda-repo]   |
 | [TypeScript Playground]                            | TypeScript                                                                                                       |                                                                |
 | [tailwindPLAY]                                     | Tailwind CSS                                                                                                     |                                                                |
 | [codapi]                                           | Languages (Python, Go, C), databases, network (OpenAPI, `curl`, `caddy`), tools (`git`, `grep`, `ripgrep`)...    | Using interactive code snippets to document and explain things |
@@ -106,7 +106,7 @@
 [Go by Example]: https://gobyexample.com/
 [Play with Go]: https://play-with-go.dev/
 [codapi]: https://codapi.org/showcase/
-[killercoda]: https://github.com/killercoda
+[killercoda-repo]: https://github.com/killercoda
 [jqkungfu]: https://jqkungfu.com/
 [sandbox.bio]: https://sandbox.bio/
 [sandbox.bio-jq]: https://sandbox.bio/playgrounds/jq
@@ -124,6 +124,6 @@
 [Braille]: https://esolangs.org/wiki/Braille
 [iximiuz Lab]: https://labs.iximiuz.com
 
-[^1]: http://training.play-with-docker.com/
-[^2]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
-[^3]: https://github.com/TryItOnline/tryitonline
+[^1]: <http://training.play-with-docker.com/>
+[^2]: <https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain>
+[^3]: <https://github.com/TryItOnline/tryitonline>
