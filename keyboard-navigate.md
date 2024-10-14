@@ -25,3 +25,8 @@
 - Delete one word after the cursor:
   - GUI: Highlight the word with `Ctrl + Shift + Right` - `Backspace`
   - CLI: `Alt + D`
+
+## Undo
+
+- GUI app: `Ctrl + Z`
+- CLI: `Ctrl + Shift + -`
