@@ -3,7 +3,9 @@
 - DNS
 
   - [Doggo DNS](https://doggo.mrkaran.dev/): DNS query
+  - [dnscheck.tools](https://www.dnscheck.tools/) (Part of addr.tools): Which DNS resolver you're using
   - [DNS Speed Test](https://dnsspeedtest.online/): Find the Fastest DNS Server for Your Location
+  - [DNS Viz](https://dnsviz.net/): Visualizing the status of a DNS zone, understanding and troubleshooting deployment of the DNS Security Extensions (DNSSEC)
 
 - HTTP
 
