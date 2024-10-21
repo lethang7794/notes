@@ -1,6 +1,12 @@
-# Developer tools that available as a web app
+# DevOps tools
+
+## Web app
 
 - DNS
+
+  - DNS playground
+
+    - [mess with dns]: Do weird DNS experiments (set your own DNS records) and see how it works
 
   - Public DNS resolvers
 
@@ -15,14 +21,18 @@
     - [Doggo DNS]: DNS query
     - [NsLookup.io]: Find all DNS records for a domain name
 
-  - Test, benchmark
+  - Test, benchmark your resolver
 
     - [dnscheck.tools] (Part of [addr.tools]): Which DNS resolver you're using?
+    - [Check My DNS](https://cmdns.dev.dns-oarc.net/): What RFCs the clients DNS resolver infrastructure supports?
+
+  - Test, benchmark pupular resolvers
+
     - [DNS Speed Test]: Find the Fastest DNS Server from **Your Location**
     - [DNS Speed Benchmark]: Test the performance of your DNS provider **from all over the world**[^1].
     - DNSPerf (from DigiCert): Compare the speed and uptime of enterprise and commercial DNS services
-      - [Authoritative DNS providers]
-      - [Public DNS resolvers]
+      - [Authoritative DNS providers] : GoDaddy, CloudFlare, AWS Route53
+      - [Public DNS resolvers] : `1.1.1.1`, `8.8.8.8`, `9.9.9.9`, NextDNS
       - [DNS Root Servers]
 
 - DNSSEC
@@ -32,12 +42,15 @@
 
 - HTTP
 
-  - [addr.tools]: Possibly useful tools for the Internet
   - [HTTP Observatory]: How secure a site's HTTP configuration is
 
 - SSL
 
   - [SSL Server Test]: How secure a site's TLS configuration is
+
+- Network
+
+  - [addr.tools]: Possibly useful tools for the Internet
 
 - Application / End Users
 
@@ -46,6 +59,9 @@
   - [myip.addr.tools] (Part of [addr.tools]): What is your IP Address?
   - [dnscheck.tools] (Part of [addr.tools]): Information about your IP Address (and DNS resolver)
 
+## CLI
+
+[mess with dns]: https://messwithdns.net/
 [Doggo DNS]: https://doggo.mrkaran.dev/
 [dnscheck.tools]: https://www.dnscheck.tools/
 [DNS Speed Test]: https://dnsspeedtest.online/
