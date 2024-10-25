@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+# Get Inputs
+input_dir=$1
+output_file=$2
+
+book-summary --overwrite -n "$input_dir" -o "$output_file"
+
+sed -i "1s/^/<!-- Auto-generated, run 'just generate-mdbook-summary' to update  -->\n/" "$output_file"
