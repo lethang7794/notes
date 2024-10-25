@@ -4,13 +4,14 @@
 export project_root := `git rev-parse --show-toplevel`
 export version := "40"
 
-mdbook_summary := "SUMMARY.md"
+content_dir := "./content"
+mdbook_summary_file := "SUMMARY.md"
 
 _default:
     @just --list
 
 # Generate mdbook SUMMARY.md from files structure
-generate-mdbook-summary input_dir="./" output_file=mdbook_summary:
+generate-mdbook-summary input_dir=content_dir output_file=mdbook_summary_file:
     @{{ project_root }}/bin/generate-mdbook-summary {{ input_dir }} {{output_file}}
     prettier --write {{output_file}}    
 

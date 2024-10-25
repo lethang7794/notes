@@ -2,7 +2,7 @@
 authors      = [ "Le Quang Thang" ]
 language     = "en"
 multilingual = false
-src          = ""                   # Root of repo
+src          = "./content"
 title        = "Notes"
 
 [preprocessor.alerts]
