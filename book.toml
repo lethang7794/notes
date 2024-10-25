@@ -2,8 +2,8 @@
 authors      = [ "Le Quang Thang" ]
 language     = "en"
 multilingual = false
-src          = "./content"
-title        = "Notes"
+src          = "src"
+title        = "LQT's Personal Notes"
 
 [preprocessor.alerts]
 

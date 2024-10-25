@@ -4,14 +4,14 @@
 export project_root := `git rev-parse --show-toplevel`
 export version := "40"
 
-content_dir := "./content"
+src_dir := "./src"
 mdbook_summary_file := "SUMMARY.md"
 
 _default:
     @just --list
 
 # Generate mdbook SUMMARY.md from files structure
-generate-mdbook-summary input_dir=content_dir output_file=mdbook_summary_file:
+generate-mdbook-summary input_dir=src_dir output_file=mdbook_summary_file:
     @{{ project_root }}/bin/generate-mdbook-summary {{ input_dir }} {{output_file}}
 
 # Check syntax of `justfile` and `.just` files
