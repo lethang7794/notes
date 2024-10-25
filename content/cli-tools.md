@@ -109,7 +109,7 @@
 
 ### [fzf][fzf]: A command-line fuzzy finder
 
-![fzf](../images/fzf-preview.png)
+![fzf](./images/fzf-preview.png)
 
 - Key bindings for command-line[^fzf-key-bindings]:
   - `CTRL-T` - Get a list of files and directories
@@ -130,7 +130,7 @@ See [Starship](./starship.md)
 
 #### `broot`[^broot]: A better way to navigate directories 🌟🌟🌟
 
-![broot](/images/broot-preview.png)
+![broot](/content/images/broot-preview.png)
 
 broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 
@@ -155,7 +155,7 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 
 #### `fx`[^fx]: Interactive _JSON_/YAML viewer & processor 🌟🌟🌟
 
-![fx](/images/fx-preview.gif)
+![fx](/content/images/fx-preview.gif)
 
 [^broot]: <https://github.com/Canop/broot>
 [^jq]: <https://github.com/jqlang/jq>

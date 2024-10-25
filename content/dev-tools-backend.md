@@ -6,7 +6,7 @@
 
 HTTPie CLI[^httpie-cli]: modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
-![httpie demo](../images/httpie-demo.gif)
+![httpie demo](./images/httpie-demo.gif)
 
 ### hey
 
@@ -16,7 +16,7 @@ HTTPie CLI[^httpie-cli]: modern, user-friendly command-line HTTP client for the 
 
 [oha][^oha]: HTTP load generator, inspired by rakyll/hey with tui animation.
 
-![oha demo](../images/oha-demo.gif)
+![oha demo](./images/oha-demo.gif)
 
 [^httpie-cli]: https://github.com/httpie/cli
 [^hey]: https://github.com/rakyll/hey
