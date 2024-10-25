@@ -13,7 +13,6 @@ _default:
 # Generate mdbook SUMMARY.md from files structure
 generate-mdbook-summary input_dir=content_dir output_file=mdbook_summary_file:
     @{{ project_root }}/bin/generate-mdbook-summary {{ input_dir }} {{output_file}}
-    prettier --write {{output_file}}    
 
 # Check syntax of `justfile` and `.just` files
 just-check:

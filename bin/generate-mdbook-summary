@@ -5,7 +5,10 @@ set -euxo pipefail
 # Get Inputs
 input_dir=$1
 output_file=$2
+output_file_path="$input_dir/$output_file"
 
 book-summary --overwrite -n "$input_dir" -o "$output_file"
 
-sed -i "1s/^/<!-- Auto-generated, run 'just generate-mdbook-summary' to update  -->\n/" "$output_file"
+sed -i "1s/^/<!-- Auto-generated, run 'just generate-mdbook-summary' to update  -->\n/" "$output_file_path"
+
+prettier --write "$output_file_path"
