@@ -63,7 +63,6 @@ window.addEventListener("load", () => {
     if (idx === 0) {
       const onThisPage = Object.assign(document.createElement("div"), {
         textContent: "ON THIS PAGE",
-        href: header.href,
         className: `pagetoc-${header.parentElement.tagName}`,
       });
       pagetoc.appendChild(onThisPage);

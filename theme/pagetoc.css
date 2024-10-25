@@ -89,3 +89,7 @@
     font-weight: bold;
   }
 }
+
+div.pagetoc-H1:only-child {
+  display: none;
+}
