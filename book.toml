@@ -5,15 +5,24 @@ multilingual = false
 src          = "src"
 title        = "LQT's Personal Notes"
 
+# Support GitHub Flavored Markdown's Alerts with lambdalisue/rs-mdbook-alerts 
 [preprocessor.alerts]
 
+# Generate TOC in each page with slowsage/mdbook-pagetoc
 [preprocessor.pagetoc]
 
+# Remove yaml frontmatter with dvogt23/mdbook-yml-header
 [preprocessor.yml-header]
 
 [output.html]
-additional-css       = [ "theme/css/catppuccin.css", "theme/pagetoc.css" ]
-default-theme        = "latte"
+additional-js = [
+  "theme/pagetoc.js",
+]
+additional-css = [
+  "theme/css/catppuccin.css",
+  "theme/pagetoc.css",
+]
+default-theme = "latte"
 preferred-dark-theme = "macchiato"
 
 smart-punctuation = true
@@ -22,11 +31,10 @@ site-url           = "/notes/"
 git-repository-url = "https://github.com/lethang7794/notes"
 edit-url-template  = "https://github.com/lethang7794/notes/edit/master{path}"
 
-additional-js = [
-  "theme/pagetoc.js",
-]
-
 # Fold chapter listing in the navigation sidebar
 [output.html.fold]
 enable = true
 level  = 1
+
+# Check links with Michael-F-Bryan/mdbook-linkcheck
+# [output.linkcheck]
