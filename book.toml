@@ -1,0 +1,27 @@
+[book]
+authors      = [ "Le Quang Thang" ]
+language     = "en"
+multilingual = false
+src          = ""                   # Root of repo
+title        = "Notes"
+
+[preprocessor.alerts]
+
+[preprocessor.pagetoc]
+
+[preprocessor.yml-header]
+
+[output.html]
+additional-css       = [ "theme/css/catppuccin.css", "theme/pagetoc.css" ]
+default-theme        = "latte"
+preferred-dark-theme = "macchiato"
+
+smart-punctuation = true
+
+site-url           = "/notes/"
+git-repository-url = "https://github.com/lethang7794/notes"
+edit-url-template  = "https://github.com/lethang7794/notes/edit/master{path}"
+
+additional-js = [
+  "theme/pagetoc.js",
+]
