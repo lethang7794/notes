@@ -16,7 +16,7 @@ If that doesn't work, try opening http://localhost:8003/2d4d16ce88565f217f8d6345
 Hit ENTER to stop.
 ```
 
-![fish web-base configuration interface](/content/images/fish-web-base-configuration.png)
+![fish web-base configuration interface](./images/fish-web-base-configuration.png)
 
 ### Reload config
 

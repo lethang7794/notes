@@ -130,7 +130,7 @@ See [Starship](./starship.md)
 
 #### `broot`[^broot]: A better way to navigate directories 🌟🌟🌟
 
-![broot](/content/images/broot-preview.png)
+![broot](./images/broot-preview.png)
 
 broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 
@@ -155,7 +155,7 @@ broot can replace a lot of CLI tools (e.g. `ls`, `cd`, `tree`, `df`, `find`...)
 
 #### `fx`[^fx]: Interactive _JSON_/YAML viewer & processor 🌟🌟🌟
 
-![fx](/content/images/fx-preview.gif)
+![fx](./images/fx-preview.gif)
 
 [^broot]: <https://github.com/Canop/broot>
 [^jq]: <https://github.com/jqlang/jq>
