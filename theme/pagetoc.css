@@ -1,3 +1,10 @@
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+
 @media only screen and (max-width: 1439px) {
   .sidetoc {
     display: none;
@@ -62,7 +69,7 @@
   .pagetoc .pagetoc-H2 {
     padding-left: 16px;
     /* text-decoration: underline; */
-    font-size: 18px; 
+    font-size: 18px;
   }
   .pagetoc .pagetoc-H3 {
     padding-left: 32px;
