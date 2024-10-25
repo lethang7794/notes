@@ -6,7 +6,7 @@
 
 `tldr-pages`[^tldr-pages]: Simplified and community-driven `man` pages
 
-![alt text](images/tldr-demo.png)
+![alt text](../images/tldr-demo.png)
 
 `tldr-pages` for a CLI tool can be available for many platforms, e.g. `common`, `linux`, `osx`, `windows`, ...
 
@@ -28,7 +28,7 @@
 
 cheat[^cheat]: cheatsheats for `*nix` commands that are used frequently, but not frequently enough to be remembered
 
-![cheat demo](images/cheat-demo.png)
+![cheat demo](../images/cheat-demo.png)
 
 ### xny
 
@@ -38,22 +38,22 @@ xny[^xny]: A way to use [Learn X in Y Minutes][x-in-y] on the command line.
 
 ### Warp's completion
 
-![warp completion](images/warp-completion.png)
+![warp completion](../images/warp-completion.png)
 
 ### zsh completion
 
-![zsh completion](images/zsh-completion.png)
+![zsh completion](../images/zsh-completion.png)
 
-![zsh completion with fuzzy search](images/zsh-completion-fuzzy-search.png)
+![zsh completion with fuzzy search](../images/zsh-completion-fuzzy-search.png)
 zsh completion with fuzzy search
 
 ### fish completion
 
-![fish completion](images/fish-completion.png)
+![fish completion](../images/fish-completion.png)
 
 ### The new terminal of JetBrain's IDEs (e.g. GoLand)
 
-![New Terminal of](images/jetbrain-ide-new-terminal.gif)
+![New Terminal of](../images/jetbrain-ide-new-terminal.gif)
 
 For more information, see its [Introduce Blog][jetbrain-new-terminal]
 

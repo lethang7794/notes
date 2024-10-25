@@ -109,7 +109,7 @@
 
 ### [fzf][fzf]: A command-line fuzzy finder
 
-![fzf](images/fzf-preview.png)
+![fzf](../images/fzf-preview.png)
 
 - Key bindings for command-line[^fzf-key-bindings]:
   - `CTRL-T` - Get a list of files and directories

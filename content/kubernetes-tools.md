@@ -2,9 +2,9 @@
 
 ## k9s
 
-[k9s]: Kubernetes CLI To Manage Your Clusters In Style!
+[k9s]: ../Kubernetes CLI To Manage Your Clusters In Style!
 
-![k9s demo](images/k9s-demo.gif)
+![k9s demo](../images/k9s-demo.gif)
 
 <details>
 <summary>Usage</summary>
@@ -54,7 +54,7 @@ From the `Pods` view, you can:
 
 Headlamp[^headlamp] (a CNCF Sandbox project[^headlamp-cncf]): A Kubernetes web UI that is fully-featured, user-friendly and extensible
 
-![Headlamp demo](images/headlamp-demo.gif)
+![Headlamp demo](../images/headlamp-demo.gif)
 
 [k9s]: https://github.com/derailed/k9s
 
@@ -112,14 +112,14 @@ See the demo at [asdf-demo repository](https://github.com/lethang7794/asdf-demo)
 ### Show cluster information in shell prompt
 
 - oh-my-zsh plugin [kubectx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectx)
-  ![alt text](images/omz-kubectx-preview-dev.png)
-  ![alt text](images/omz-kubectx-preview-prod.png)
+  ![alt text](../images/omz-kubectx-preview-dev.png)
+  ![alt text](../images/omz-kubectx-preview-prod.png)
 
 - Use [starship](https://starship.rs/) prompt, with its [command for Kubernetes](https://starship.rs/config/#kubernetes)
-  ![alt text](images/starship-k8s.png)
+  ![alt text](../images/starship-k8s.png)
 
 - Use [fish shell](https://fishshell.com/), which show it by default
-  ![alt text](images/fish-shell-k8s.png)
+  ![alt text](../images/fish-shell-k8s.png)
 
 ### Add shell completions for `kubectl`
 
@@ -144,9 +144,9 @@ See the demo at [asdf-demo repository](https://github.com/lethang7794/asdf-demo)
 
 You can use `kubecolor` as a complete alternative of `kubect`
 
-![kubectl get pods - demo](images/kubectl-get-pods.svg)
+![kubectl get pods - demo](../images/kubectl-get-pods.svg)
 
-![kubectl describe pod - demo](images/kubectl-describe-pod.svg)
+![kubectl describe pod - demo](../images/kubectl-describe-pod.svg)
 
 <details>
 <summary>Configuration</summary>
@@ -183,21 +183,21 @@ You can use `kubecolor` as a complete alternative of `kubect`
 
 ### Switch between contexts (cluster) with `kubectx`
 
-[kubectx]: a tool to switch between contexts (clusters) on `kubectl` faster.
+[kubectx]: ../a tool to switch between contexts (clusters) on `kubectl` faster.
 
-![kubectx demo](images/kubectx-demo.gif)
+![kubectx demo](../images/kubectx-demo.gif)
 
 ### Switch between namespaces with `kubens`
 
-[kubens]: a tool to switch between Kubernetes namespaces (and configure them for `kubectl`) easily.
+[kubens]: ../a tool to switch between Kubernetes namespaces (and configure them for `kubectl`) easily.
 
-![kubens demo](images/kubens-demo.gif)
+![kubens demo](../images/kubens-demo.gif)
 
 ### Switch between contexts/namspace with `kubeswitch`
 
-[kubeswitch]: kubectx for operators, treat clusters as cattle, not pets.
+[kubeswitch]: ../kubectx for operators, treat clusters as cattle, not pets.
 
-![kubeswitch demo](images/kubeswitch-demo.gif)
+![kubeswitch demo](../images/kubeswitch-demo.gif)
 
 [kubectl-aliases]: https://github.com/ahmetb/kubectl-aliases
 [kubecolor]: https://github.com/kubecolor/kubecolor

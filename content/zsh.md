@@ -52,7 +52,7 @@
       ```
 
 > [!CAUTION]
-> You [shouldn't](how-do-i-reload-the-zshrc-file) run `source ~/.zshrc` to reload your zsh config.
+> You [shouldn't](../how-do-i-reload-the-zshrc-file) run `source ~/.zshrc` to reload your zsh config.
 
 ### Packages manager
 
