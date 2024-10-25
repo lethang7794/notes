@@ -25,3 +25,8 @@ edit-url-template  = "https://github.com/lethang7794/notes/edit/master{path}"
 additional-js = [
   "theme/pagetoc.js",
 ]
+
+# Fold chapter listing in the navigation sidebar
+[output.html.fold]
+enable = true
+level  = 1
